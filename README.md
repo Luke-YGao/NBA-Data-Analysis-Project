@@ -12,7 +12,7 @@ This repository contains an end-to-end data science project that analyzes 10 yea
 * **Data Visualization:** `matplotlib`, `seaborn`
 * **Machine Learning:** `scikit-learn` (Random Forest Classifier)
 
-## 📁 Project Structure
+## Project Structure
 * `NBA_DA_report.ipynb`: **[⭐ Start Here]** A comprehensive executive summary detailing the project's background, analytical methodologies, and key basketball/business insights.
 * `NBA_DA.ipynb`: The automated web scraping notebook demonstrating the data collection pipeline from NBA.com.
 * `NBA_DA_2.ipynb`: The core analytical notebook featuring Exploratory Data Analysis (EDA), statistical visualizations, and the Random Forest MVP prediction model.
@@ -39,7 +39,7 @@ This repository contains an end-to-end data science project that analyzes 10 yea
 * Trained a **Random Forest Classifier** utilizing core metrics (PPG, APG, RPG) to predict the likelihood of a player winning the MVP award in subsequent seasons.
 * Utilized techniques like `class_weight='balanced'` to handle the extreme class imbalance (only one MVP per year) and evaluated the model using training/testing accuracy splits.
 
-## ⚙️ How to Review
+## How to Review
 Since this project was developed and documented in Jupyter Notebooks, the most straightforward way to review the insights is directly through GitHub's native rendering—no local setup required:
 1. **For a high-level overview:** Open `NBA_DA_report.ipynb` to read the full analytical story.
 2. **For the technical data pipeline:** Check `NBA_DA.ipynb`.
